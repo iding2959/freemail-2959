@@ -1,24 +1,24 @@
 name = "mailfree"
 # name = "mail-exhibit"
 main = "src/server.js"
-compatibility_date = "2024-01-01"
+compatibility_date = "2024-01-11"
 
 # D1 数据库绑定
 [[d1_databases]]
 binding = "TEMP_MAIL_DB"
 database_name = "maill_free_db" #你的d1数据库名称
-database_id = "c82663ac-62b6-4ba6-be81-cbe297f2a3dd" # 你的database_id
-# 登录会话过期时间（单位：天，默认365天）
+database_id = "16a77dfe-ebe4-405f-940c-2296cd5ea746" # 你的database_id
+# 登录会话过期时间（单位：天，默认7天）
 # 环境变量
 [vars]
-# FORWARD_RULES="[{"prefix":"vip","email":"a@example.com"},{"prefix":"*","email":"example@qq.com"}]"
-ADMIN_NAME=""
-ADMIN_PASSWORD=""
+# FORWARD_RULES="[{"prefix":"vip","email":"a@example.com"},{"prefix":"*","email":"2141083706@qq.com"}]"
+ADMIN_NAME="iding"
+ADMIN_PASSWORD="asdfgh"
 GUEST_PASSWORD="guest"
-JWT_TOKEN="sdawdadsdaw"
-JWT_TOKENGUEST_PASSWORD="sdasdawda"
+JWT_TOKEN="dwajdshlakuflhsuidhflkasud"
+JWT_TOKENGUEST_PASSWORD="shkljashdkjklsjhdawswadagsd"
 SESSION_EXPIRE_DAYS="365"
-MAIL_DOMAIN="test.domain"
+MAIL_DOMAIN="izhou.nyc.mn,iding.ggff.net,izhou.indevs.in,izhou.us.ci,ins.de5.net"
 RESEND_API_KEY=""
 
 
@@ -38,5 +38,3 @@ bucket_name = "mail-eml"
 # wrangler.toml (wrangler v3.88.0^) 日志服务
 # [observability.logs]
 # enabled = true
-
-
